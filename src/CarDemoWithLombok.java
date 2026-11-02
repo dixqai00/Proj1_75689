@@ -10,5 +10,11 @@ public class CarDemoWithLombok {
         System.out.println("Are these objects equal? " + CarWithLombok1.equals(CarWithLombok2));
         System.out.println("The HashCode of this object is: " + CarWithLombok2.hashCode());
         System.out.println("The HashCode of this object is: " + CarWithLombok1.hashCode());
+
+        CarWithLombok CarWithLombok3 = new CarWithLombok("A4", "Audi", 2021, 180_000, "black", 2);
+
+        System.out.println("Mercedes vs Mercedes equal? " + CarWithLombok1.equals(CarWithLombok2));
+        System.out.println("Mercedes vs Audi equal? " + CarWithLombok1.equals(CarWithLombok3));
+        System.out.println("The HashCode of Audi is: " + CarWithLombok3.hashCode());
     }
 }
