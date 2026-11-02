@@ -28,3 +28,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Personal IDE files ###
+.idea/workspace.xml
+.idea/shelf/
+.idea/dataSources/
+.idea/httpRequests/
